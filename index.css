@@ -1,0 +1,71 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+html, body {
+  height: 100%;
+}
+.first{
+    background-color: red;
+    width: 100%;
+    color: white;
+text-shadow: 2px 3px 5px black;
+letter-spacing: 2px;
+padding: 10px;
+font-size: 32px;
+text-align: center;
+}
+header{
+    margin: 10px;
+    padding: 0px;
+}
+ header,    .box{
+    border: none;
+    text-decoration: none;
+    gap: 40px;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  a:hover{
+    border-bottom: 5px solid red;
+    scale: 1.2;
+    box-shadow: 2px 3px 5px black;
+    border-radius: 20px;
+    padding: 15px;
+  }
+  button{
+    position: relative;
+    left: 350px;
+    top: -3px;
+    font-size: 22px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
+  }
+  button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
+    scale: 1.1;
+  }
+  img{
+    width: 70%;
+    height: auto;
+    position: relative;
+    left: 50px;
+
+  }
+  .img{
+    width: 68%;
+    position: relative;
+    left: 50px;
+    margin: 20px 0px;
+    color: rgb(55, 44, 209);
+    padding: 10px;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
